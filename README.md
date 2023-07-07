@@ -8,7 +8,7 @@ KQI (Knowledge Quantification Index) is the first metric to quantify knowledge f
 
 This repository provides a python implementation of KQI, as well as data and code examples on an imcomplete tiny academic datasets.
 
-More details on the design of KQI can be found in the paper: [Exploring the Disproportion Between Scientific Productivity and Knowledge Amount](https://arxiv.org/abs/2106.02989).
+More details on the design of KQI can be found in the paper: [Quantifying knowledge from the perspective of information structurization](https://doi.org/10.1371/journal.pone.0279314).
 
 
 # System Requirements
@@ -65,10 +65,17 @@ If readers would like to reproduce our work, we also provide a full [publication
 
 Please use the following bibtex entry:
 ```
-@article{fu2021exploring,
-  title={Exploring the Disproportion Between Scientific Productivity and Knowledge Amount},
-  author={Fu, Luoyi and Kang, Huquan and Wang, Jianghao and Yao, Ling and Wang, Xinbing and Zhou, Chenghu},
-  journal={arXiv preprint arXiv:2106.02989},
-  year={2021}
+@article{10.1371/journal.pone.0279314,
+    doi = {10.1371/journal.pone.0279314},
+    author = {Wang, Xinbing AND Kang, Huquan AND Fu, Luoyi AND Yao, Ling AND Ding, Jiaxin AND Wang, Jianghao AND Gan, Xiaoying AND Zhou, Chenghu AND Hopcroft, John E.},
+    journal = {PLOS ONE},
+    publisher = {Public Library of Science},
+    title = {Quantifying knowledge from the perspective of information structurization},
+    year = {2023},
+    month = {01},
+    volume = {18},
+    url = {https://doi.org/10.1371/journal.pone.0279314},
+    pages = {1-16},
+    number = {1},
 }
 ```
