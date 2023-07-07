@@ -29,7 +29,7 @@ class DiGraph():
         self.__volume = {}
         self.__graph_volume = 0
 
-    def add_node(self, v, pred: list, date: datetime.date):
+    def add_node(self, v, pred: list, date: datetime.date = datetime.date.today()):
         '''
         Add node like BA model. This function will override the old node.
         '''
